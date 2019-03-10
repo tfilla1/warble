@@ -1,45 +1,22 @@
-.header-container {
-    color: #61ec9b;
-    background-color: #9b61ec;
+:root {
+    --header-color: #61ec9b;
+    --header-bg-color: #9b61ec;
+    --header-border-shadow-color:  rgba(141,74,233,0.5);
 
-    /* border && shading  */
-    border-bottom: solid 1px rgba(141,74,233,0.5);
-    box-shadow: 1px 2px 4px rgba(141,74,233,0.5);
-}
+    --menu-bg-color: #a978ef;
+    --menu-color: #61ec9b;
+    --menu-shadow-border-color: rgba(154,97,236,0.5);
 
-.menu {
-    background-color: #a978ef;
-    box-shadow: 2px 1px 4px rgba(154,97,236,0.5);
-    /* rgba(169,120,239, 0.5); */
-    border-right:solid 1px rgba(154,97,236, 0.5);
-}
+    --sidebar-bg-color: var(--menu-bg-color);
+    --sidebar-shadow-border-color: var(--menu-shadow-border-color);
+    --sidebar-color: var(--menu-color);
 
-.side-bar {
-    background-color: #a978ef;
-    color: #61ec9b;
-    box-shadow: -2px 1px 4px rgba(154,97,236,0.5);
-    /* rgba(169,120,239, 0.5); */
-    border-left:solid 1px rgba(154,97,236, 0.5);
-}
+    --footer-bg-color: var(--header-bg-color);
+    --footer-color: var(--header-color);
+    --footer-shadow-border-color: var(--header-border-shadow-color);
 
-.footer {
-    color: #61ec9b;
-    background-color: #9b61ec;
-
-    /* border && shading  */
-    border-top: solid 1px rgba(141,74,233,0.5);
-    box-shadow: 1px -2px 4px rgba(141,74,233,0.5);
-}
-
-body {
-    color: #9b61ec;
-    background-color: #61ec9b;
-
-    
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 14pt;
-}
-
-a {
-    color: #61ec9b;
+    --body-font-family: 'IBM Plex Sans', sans-serif;
+    --body-font-size: 14pt;
+    --body-bg-color: #61ec9b;
+    --body-color: #9b61ec;
 }
