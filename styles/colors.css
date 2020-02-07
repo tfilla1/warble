@@ -1,22 +1,31 @@
 :root {
-    --header-color: #61ec9b;
-    --header-bg-color: #9b61ec;
+    --border-color: #000000;
+    --border-shadow-color: rgba(12,12,12, 0.5);
+
+    --header-color: #000000;
+    --header-bg-color: #c686f4;
     --header-border-shadow-color:  rgba(141,74,233,0.5);
 
-    --menu-bg-color: #a978ef;
-    --menu-color: #61ec9b;
-    --menu-shadow-border-color: rgba(154,97,236,0.5);
+    --menu-bg-color: #75f9ad;
+    --menu-color: #000000;
+    --menu-border-shadow-color: rgba(154,97,236,0.5);
 
     --sidebar-bg-color: var(--menu-bg-color);
-    --sidebar-shadow-border-color: var(--menu-shadow-border-color);
+    --sidebar-border-shadow-color: var(--menu-border-shadow-color);
     --sidebar-color: var(--menu-color);
 
     --footer-bg-color: var(--header-bg-color);
     --footer-color: var(--header-color);
     --footer-shadow-border-color: var(--header-border-shadow-color);
 
-    --body-font-family: 'IBM Plex Sans', sans-serif;
+    --body-font-family: 'Questrial', sans-serif;
     --body-font-size: 14pt;
-    --body-bg-color: #61ec9b;
-    --body-color: #9b61ec;
+    --body-bg-color: #3f86f5;
+    --body-color: #000000;
+
+    --boring-bg: #2d2d2d;
+    --boring-color: #d3d3d3;
+    --boring-header-bg-color: #c0306e;
+    --boring-header-color: #000000;
+
 }
