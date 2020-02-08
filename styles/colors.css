@@ -7,7 +7,6 @@
     --button-border-shadow-color:  rgba(141,74,233,0.5);
     --button-active-color:  rgba(184, 100, 245,0.5);
 
-
     --header-color: #000000;
     --header-bg-color: #c686f4;
     --header-border-shadow-color:  rgba(141,74,233,0.5);
@@ -29,9 +28,9 @@
     --body-bg-color: #3f86f5;
     --body-color: #000000;
 
-    --boring-bg: #2d2d2d;
-    --boring-color: #d3d3d3;
-    --boring-header-bg-color: #c0306e;
-    --boring-header-color: #000000;
+    --simple-bg: #2d2d2d;
+    --simple-color: #d3d3d3;
+    --simple-header-bg-color: #c0306e;
+    --simple-header-color: #000000;
 
 }
