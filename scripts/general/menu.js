@@ -56,7 +56,7 @@ var menu = {
     "warble" : [
         {
             "title": "more to come",
-            "link": "/warble"
+            "link": "/warble/"
         }
     ]
 }
