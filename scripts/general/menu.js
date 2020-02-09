@@ -11,11 +11,11 @@ var menu = {
         {
             "title": "free tacos",
             "link": "/freetacos/",
-        },
-        {
-            "title": "old",
-            "link": "/old/allthngs",
         }
+        // {
+        //     "title": "old",
+        //     "link": "/old/allthngs",
+        // }
     ],
     "games": [
         {
@@ -30,10 +30,10 @@ var menu = {
         //     "title": "hopper",
         //     "link": "/games/hopper/",
         // },
-        {
-            "title": "flird",
-            "link": "/games/flird/",
-        },
+        // {
+        //     "title": "flird",
+        //     "link": "/games/flird/",
+        // },
         {
             "title": "flop",
             "link": "/games/flop/",
