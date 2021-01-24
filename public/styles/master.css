@@ -17,9 +17,6 @@ body {
     font-family: var(--body-font-family) ;
     font-size: var(--body-font-size);
 }
-.no-border {
-    border: none !important;
-}
 .simple {
     background-color: var(--simple-bg) !important;
     color: var(--simple-color) !important;
@@ -58,7 +55,7 @@ body {
 
     /* border && shading  */
     border-bottom: solid 4px var(--border-color);
-    box-shadow: 215px 4px 4px var(--header-border-shadow-color);
+    box-shadow: 4px 4px 4px var(--header-border-shadow-color);
 }
 .warble > header a {
     color: var(--header-color);
@@ -114,38 +111,9 @@ body {
 .header-menu {
     grid-area: headerMenu;
 }
-
-/* .menu-button-area {
-    grid-area: menuButtonArea;
-    background-color: #61ec9b;
-}
-.menu-icon {
-    grid-area: menuIcon;
-    padding: 0;
-    margin: 0;
-    align-self: center;
-    }
-    .menu-button {
-        display: none;
-    }
-.menu-bar {
-    /*width: 50%;
-    height: 0;
-    border: 1px solid black;
-    margin: 25px auto; 
-  } */
-
 .menu {
     grid-area: menu;
     padding: 20px 25px;
-    /* height: 100%; */
-
-    /*testing area*/
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-items: baseline; */
-
-
 }
 
 .menu > div {
@@ -157,8 +125,6 @@ body {
     height: 250px;
     margin: 25px auto;
     padding: 20px 40px;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
 }
 .sidebar-color {
     background-color: var(--sidebar-bg-color);
@@ -206,17 +172,6 @@ body {
     height: 100vh;
 }
 
-.alt-container {
-    display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-    grid-template-rows: 2fr 2fr 6fr 2fr;
-    grid-gap: 0;
-    grid-template-areas:    "headerContainer headerContainer headerContainer"
-                            "content content content"
-                            "content content content"
-                            "menu menu menu"
-}
-
 body {
     background-color: var(--body-bg-color);
     color: var(--body-color);
@@ -224,7 +179,4 @@ body {
 
 a {
     text-decoration: none;
-}
-.intro {
-    padding: 20px 40px;
 }
