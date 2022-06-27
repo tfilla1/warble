@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 var port = 3030;
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
     // res.send('hello world');
     res.sendFile(__dirname + '/index.html');
 })
 
-app.listen(port, () => { console.log('catch it!'); })
+app.listen(port, () => { console.log(`catch it on port: ${port}!`); })
